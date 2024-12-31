@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+}
+.tank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border: 3px solid black;
+    gap: 1em;
+}
+.grid-one {
+    grid-column: 1 / -1;
+    
+}
+.grid-two {
+    grid-column: 1 / 7;
+     
+}
+.grid-three {
+    grid-column: 7 / -1;
+       
+}
+.grid-four {
+    grid-column: 1 / 7;   
+    
+}
+.grid-five {
+    grid-column: 7 / -1;
+    
+ }
+.grid-six {
+    grid-column: 1 / -1;
+    
+ }
+
